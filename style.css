@@ -641,6 +641,10 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
+.color-for-p-page2{
+    color: #000000;
+}
+
 h1,
 h2,
 h3,
@@ -653,7 +657,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #000000!important;
+    color: #575757!important;
 }
 
 .container {
@@ -724,7 +728,7 @@ h3 {
     box-shadow: 0px 0px 0px #000000;
 }
 
-h1 {
+h1, p{
     color: #333333!important;
 }
 
