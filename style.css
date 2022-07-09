@@ -31,7 +31,7 @@ a:hover {
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
-    padding: 0 50px;
+    padding: 0 10px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -42,6 +42,8 @@ a:hover {
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
+    text-align: center;
+    margin: auto;
 }
 
 .bloc-lg {
@@ -91,7 +93,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -302,7 +304,7 @@ a:hover {
 }
 
 .navbar-brand img {
-    max-height: 200px;
+    height: 60px;
     margin: 0 5px 0 0;
     display: inline;
 }
@@ -677,7 +679,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .tight-width-whitespace {
@@ -778,7 +780,10 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #f3976c!important;
+}
+.color-text-page2{
+    color: #000000;
 }
 
 .btn-atomic-tangerine {
@@ -826,6 +831,18 @@ h4 {
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.webp");
+}
+
+.form-group{
+    margin-bottom: 20px;
+}
+
+.form-formulaire{
+    text-align: left;
+    padding: 10px 20px;
+    min-width: 300px;
+    max-width: 600px;
+    margin: auto;
 }
 
 @media (max-width: 1024px) {
