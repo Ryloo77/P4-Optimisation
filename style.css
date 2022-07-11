@@ -335,6 +335,9 @@ a:hover {
     margin-top: 4px;
     font-size: 16px;
 }
+.title-baspages{
+    color : white;
+}
 
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
@@ -791,6 +794,8 @@ h4 {
 
 .tc-white {
     color: #f3976c!important;
+    z-index: 2;
+    font-weight: 700;
 }
 .color-text-page2{
     color: #000000;
